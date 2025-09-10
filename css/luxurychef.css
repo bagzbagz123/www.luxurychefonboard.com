@@ -1143,6 +1143,12 @@ a:hover {
   opacity: 0;
 }
 
+@media (max-width: 479px) {
+  .floating-element._2 .floating-review {
+    transform: translateY(40px); /* adjust value to move lower */
+  }
+}
+
 .floating-review-avatar {
   width: 68px;
   height: 68px;
