@@ -1145,7 +1145,7 @@ a:hover {
 
 @media (max-width: 479px) {
   .floating-element._2 .floating-review {
-    transform: translateY(40px); /* adjust value to move lower */
+    transform: translateY(60px); /* adjust value to move lower */
   }
 }
 
