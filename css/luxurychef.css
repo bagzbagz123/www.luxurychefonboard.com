@@ -2949,7 +2949,7 @@ html.w-mod-js *[data-ix="display-none"] {
   }
 
   .button-2.color-4.gold {
-    display: none;
+    display: block;
   }
 
   .button-2.color-4 {
