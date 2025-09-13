@@ -2717,6 +2717,22 @@ html.w-mod-js *[data-ix="display-none"] {
     opacity: 1 !important;
   }
 
+  .about-image-wrapper[data-w-id] {
+    opacity: 1 !important;
+  }
+
+  .about-image-wrapper[data-w-id] img {
+    opacity: 1 !important;
+  }
+
+  [data-w-id="09466384-69af-43b1-2961-6fc5c30d10c3"] {
+    opacity: 1 !important;
+  }
+
+  [data-w-id="09466384-69af-43b1-2961-6fc5c30d10c3"] img {
+    opacity: 1 !important;
+  }
+
   .nav-link.blue {
     color: #262261;
   }
