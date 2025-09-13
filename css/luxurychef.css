@@ -2713,6 +2713,10 @@ html.w-mod-js *[data-ix="display-none"] {
     background-attachment: scroll, fixed;
   }
 
+  .about-image-wrapper img {
+    opacity: 1 !important;
+  }
+
   .nav-link.blue {
     color: #262261;
   }
@@ -2949,7 +2953,7 @@ html.w-mod-js *[data-ix="display-none"] {
   }
 
   .button-2.color-4.gold {
-    display: block !important;
+    display: none;
   }
 
   .button-2.color-4 {
@@ -3379,7 +3383,7 @@ html.w-mod-js *[data-ix="display-none"] {
   }
 
   .button-2.color-4.gold {
-    display: block !important;
+    display: none;
   }
 
   .button-2.behind {
@@ -3740,7 +3744,7 @@ html.w-mod-js *[data-ix="display-none"] {
   }
 
   .button-2.color-4.gold {
-    display: block !important;
+    display: none;
   }
 
   .button-2.behind {
@@ -4023,7 +4027,7 @@ html.w-mod-js *[data-ix="display-none"] {
   .floating-element._2 {
     left: -2%;
     right: 0px;
-    bottom: 60%;
+    bottom: 84%;
     margin-right: 8px;
     margin-bottom: 0px;
     margin-left: 10px;
