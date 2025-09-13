@@ -3740,7 +3740,7 @@ html.w-mod-js *[data-ix="display-none"] {
   }
 
   .button-2.color-4.gold {
-    display: none;
+    display: block;
   }
 
   .button-2.behind {
@@ -4023,7 +4023,7 @@ html.w-mod-js *[data-ix="display-none"] {
   .floating-element._2 {
     left: -2%;
     right: 0px;
-    bottom: 20%;
+    bottom: 60%;
     margin-right: 8px;
     margin-bottom: 0px;
     margin-left: 10px;
