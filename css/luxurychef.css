@@ -1283,10 +1283,10 @@ a:hover {
   width: 100%;
   padding-right: 56px;
   color: #6d6b6b;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
-  -webkit-column-count: 2;
-  column-count: 2;
+  -webkit-column-count: 1;
+  column-count: 1;
   -webkit-column-gap: 56px;
   column-gap: 56px;
 }
@@ -1799,6 +1799,7 @@ a:hover {
   display: flex;
   width: 50%;
   padding-top: 10px;
+  margin-top: 16px; /* space from about text */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2896,9 +2897,20 @@ html.w-mod-js *[data-ix="display-none"] {
 /* Keep floating review fully visible on desktop when anchored to photo */
 @media screen and (min-width: 992px) {
   .about-image-wrapper .floating-element._2 {
-    left: 58%;
+    left: auto;
+    right: 2%;
     bottom: 8%;
     margin: 0;
+  }
+  .about-image-wrapper .floating-review {
+    width: 420px;
+    max-width: 90%;
+    white-space: normal;
+    overflow: hidden;
+  }
+  .about-image-wrapper .floating-review .text-block {
+    font-size: 18px;
+    line-height: 24px;
   }
 }
 
