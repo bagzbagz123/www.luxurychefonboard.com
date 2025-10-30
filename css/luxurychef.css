@@ -2893,6 +2893,15 @@ html.w-mod-js *[data-ix="display-none"] {
   }
 }
 
+/* Keep floating review fully visible on desktop when anchored to photo */
+@media screen and (min-width: 992px) {
+  .about-image-wrapper .floating-element._2 {
+    left: 58%;
+    bottom: 8%;
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .section {
     margin-bottom: 1rem;
