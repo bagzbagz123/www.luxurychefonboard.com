@@ -2979,6 +2979,13 @@ html.w-mod-js *[data-ix="display-none"] {
     display: none;
   }
 
+  /* Ensure hero CTA is visible on mobile under the headline */
+  .section.hero .side-info .button-2.color-4.gold {
+    display: block;
+    width: 200px;
+    margin-top: 12px;
+  }
+
   .button-2.color-4 {
     background-color: #cda248;
   }
@@ -3768,6 +3775,13 @@ html.w-mod-js *[data-ix="display-none"] {
 
   .button-2.color-4.gold {
     display: none;
+  }
+
+  /* Ensure hero CTA is visible on small mobile as well */
+  .section.hero .side-info .button-2.color-4.gold {
+    display: block;
+    width: 200px;
+    margin-top: 12px;
   }
 
   .button-2.behind {
