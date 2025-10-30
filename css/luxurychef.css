@@ -3542,9 +3542,9 @@ html.w-mod-js *[data-ix="display-none"] {
   }
 
   .floating-element._2 {
-    left: 32%;
-    bottom: 42%;
-    margin-bottom: 50%;
+    left: 8%;
+    bottom: 10%;
+    margin-bottom: 0;
   }
 
   .section-7 {
@@ -4062,12 +4062,12 @@ html.w-mod-js *[data-ix="display-none"] {
   }
 
   .floating-element._2 {
-    left: -2%;
-    right: 0px;
-    bottom: 84%;
-    margin-right: 8px;
-    margin-bottom: 0px;
-    margin-left: 10px;
+    left: 6%;
+    right: auto;
+    bottom: 8%;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
   }
 
   .icon-7.accordion-icon {
