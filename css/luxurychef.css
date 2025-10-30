@@ -713,6 +713,11 @@ a:hover {
   display: flex;
 }
 
+/* Add horizontal spacing between adjacent buttons in navbar */
+.nav-right.wc .button-2 + .button-2 {
+  margin-left: 12px;
+}
+
 .search-mobile-button {
   display: none;
   width: 48px;
@@ -3316,7 +3321,7 @@ html.w-mod-js *[data-ix="display-none"] {
     height: 100vh;
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(17%, rgba(34, 63, 97, 0.83)), color-stop(65%, hsla(0, 0%, 100%, 0))), url('../images/renatabanner3-optimized.jpg');
     background-image: linear-gradient(0deg, rgba(34, 63, 97, 0.83) 17%, hsla(0, 0%, 100%, 0) 65%), url('../images/renatabanner3-optimized.jpg');
-    background-position: 0px 0px, 20% 50%;
+    background-position: 0px 0px, 20% 25%;
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
     background-attachment: scroll, fixed;
@@ -3665,7 +3670,7 @@ html.w-mod-js *[data-ix="display-none"] {
     margin-bottom: 0rem;
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(28%, rgba(34, 63, 97, 0.83)), color-stop(65%, hsla(0, 0%, 100%, 0))), url('../images/renatabanner3-optimized.jpg');
     background-image: linear-gradient(0deg, rgba(34, 63, 97, 0.83) 28%, hsla(0, 0%, 100%, 0) 65%), url('../images/renatabanner3-optimized.jpg');
-    background-position: 0px 0px, 20% 50%;
+    background-position: 0px 0px, 20% 25%;
   }
 
   .wrapper {
