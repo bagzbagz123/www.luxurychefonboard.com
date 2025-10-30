@@ -865,6 +865,27 @@ a:hover {
   padding-right: 0px;
 }
 
+.about-promise-heading {
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 12px;
+  font-family: Lato, sans-serif;
+  color: #262261;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.promise-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.promise-list li {
+  margin-bottom: 8px;
+}
+
 .h1-white {
   font-family: Lato, sans-serif;
   color: #f5f6ce;
