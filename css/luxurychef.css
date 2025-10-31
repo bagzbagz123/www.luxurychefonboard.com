@@ -584,6 +584,10 @@ a:hover {
   font-size: 32px;
 }
 
+.menu-icon.blue {
+  color: #3e2723;
+}
+
 .mobile-menu {
   z-index: 2;
   display: -webkit-box;
