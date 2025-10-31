@@ -1575,8 +1575,8 @@ a:hover {
   margin-top: 2px;
   margin-right: 10px;
   border-radius: 50%;
-  -webkit-filter: sepia(100%);
-  filter: sepia(100%);
+  -webkit-filter: brightness(0) saturate(100%) invert(32%) sepia(99%) saturate(1326%) hue-rotate(340deg) brightness(87%) contrast(88%);
+  filter: brightness(0) saturate(100%) invert(32%) sepia(99%) saturate(1326%) hue-rotate(340deg) brightness(87%) contrast(88%);
 }
 
 .mini-heading {
