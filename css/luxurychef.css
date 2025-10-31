@@ -4328,3 +4328,12 @@ html.w-mod-js *[data-ix="display-none"] {
 .about-image-wrapper[data-w-id] {
   opacity: 1 !important;
 }
+
+/* Override about image wrapper inline styles */
+.about-image-wrapper[data-w-id="09466384-69af-43b1-2961-6fc5c30d12ed"] {
+  opacity: 1 !important;
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -ms-transform: none !important;
+  transform: none !important;
+}
