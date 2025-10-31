@@ -13,7 +13,7 @@
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link rel="preload" href="images/renatabanner-yacht.png" as="image" type="image/png">
+  <link rel="preload" href="images/renata-banner3.png" as="image" type="image/png">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/components.css" rel="stylesheet" type="text/css">
   <link href="css/luxurychef.css" rel="stylesheet" type="text/css">
@@ -1274,6 +1274,22 @@
         window.addEventListener('orientationchange', setFixedHeight);
       }
     })();
+    
+    // Preload hero background image to prevent cropping on first load
+    (function() {
+      var img = new Image();
+      img.src = 'images/renata-banner3.png';
+      img.onload = function() {
+        // Force a repaint once image is loaded to ensure proper rendering
+        var heroSection = document.querySelector('.section.hero');
+        if (heroSection) {
+          var display = heroSection.style.display;
+          heroSection.style.display = 'none';
+          var forceReflow = heroSection.offsetHeight;
+          heroSection.style.display = display;
+        }
+      };
+    })();
   </script>
-  </body>
+</body>
 </html>
