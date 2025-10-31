@@ -1235,5 +1235,21 @@
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/webflow.js"></script>
+  <script>
+    // Fix mobile hero height to prevent size changes on scroll
+    (function() {
+      var heroSection = document.querySelector('.section.hero');
+      if (heroSection && window.innerWidth <= 767) {
+        var setFixedHeight = function() {
+          var vh = window.innerHeight;
+          heroSection.style.height = vh + 'px';
+          heroSection.style.minHeight = vh + 'px';
+          heroSection.style.maxHeight = vh + 'px';
+        };
+        setFixedHeight();
+        window.addEventListener('orientationchange', setFixedHeight);
+      }
+    })();
+  </script>
   </body>
 </html>
