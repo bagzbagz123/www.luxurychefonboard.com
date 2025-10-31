@@ -4324,3 +4324,7 @@ html.w-mod-js *[data-ix="display-none"] {
   font-style: normal;
   font-display: auto;
 }
+/* Ensure about image always visible */
+.about-image-wrapper[data-w-id] {
+  opacity: 1 !important;
+}
