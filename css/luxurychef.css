@@ -2961,7 +2961,7 @@ html.w-mod-js *[data-ix="display-none"] {
     margin-bottom: 0rem;
     padding-top: 1rem;
     background-image: linear-gradient(265deg, rgba(62, 39, 35, 0.4), hsla(0, 0%, 100%, 0)), url('../images/renata-banner3.png');
-    background-position: 0px 0px, center 40%;
+    background-position: 0px 0px, 23% 50%;
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
     background-attachment: scroll, scroll;
@@ -3740,7 +3740,7 @@ html.w-mod-js *[data-ix="display-none"] {
     margin-bottom: 0rem;
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(28%, rgba(62, 39, 35, 0.83)), color-stop(65%, hsla(0, 0%, 100%, 0))), url('../images/renata-banner3.png');
     background-image: linear-gradient(0deg, rgba(62, 39, 35, 0.83) 28%, hsla(0, 0%, 100%, 0) 65%), url('../images/renata-banner3.png');
-    background-position: 0px 0px, center 35%;
+    background-position: 0px 0px, 20% 25%;
     background-attachment: scroll, scroll;
   }
 
