@@ -101,11 +101,11 @@ a:hover {
 .section.hero {
   height: 100vh;
   padding-top: 2rem;
-  background-image: linear-gradient(256deg, rgba(62, 39, 35, 0.47) 49%, hsla(0, 0%, 100%, 0) 95%), url('../images/renata-banner3.png');
-  background-position: 0px 0px, 20% 50%;
-  background-size: auto, 100% auto;
-  background-repeat: repeat, no-repeat;
-  background-attachment: scroll, fixed;
+  background-image: url('../images/renata-banner3.jpg');
+  background-position: 20% 50%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   will-change: transform;
   transform: translateZ(0);
 }
@@ -905,7 +905,7 @@ a:hover {
 
 .h1-white {
   font-family: Lato, sans-serif;
-  color: #ffe0e0;
+  color: #d32f2f;
   font-size: 50px;
   line-height: 50px;
   font-weight: 300;
@@ -2752,11 +2752,11 @@ html.w-mod-js *[data-ix="display-none"] {
   .section.hero {
     overflow: hidden;
     height: 1000px;
-    background-image: linear-gradient(75deg, transparent 4%, rgba(62, 39, 35, 0.6) 68%), url('../images/renata-banner3.png');
-    background-position: 0px 0px, 20% 50%;
-    background-size: auto, cover;
-    background-repeat: repeat, no-repeat;
-    background-attachment: scroll, fixed;
+    background-image: url('../images/renata-banner3.jpg');
+    background-position: 20% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
   .about-image-wrapper img {
@@ -2964,11 +2964,11 @@ html.w-mod-js *[data-ix="display-none"] {
     max-height: 100vh;
     margin-bottom: 0rem;
     padding-top: 1rem;
-    background-image: linear-gradient(265deg, rgba(62, 39, 35, 0.4), hsla(0, 0%, 100%, 0)), url('../images/renata-banner3.png');
-    background-position: 0px 0px, 23% 50%;
-    background-size: auto, cover;
-    background-repeat: repeat, no-repeat;
-    background-attachment: scroll, scroll;
+    background-image: url('../images/renata-banner3.jpg');
+    background-position: 23% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
     overflow: hidden;
   }
 
@@ -3090,7 +3090,7 @@ html.w-mod-js *[data-ix="display-none"] {
   }
 
   .h1-white {
-    color: #ffe0e0;
+    color: #d32f2f;
     line-height: 50px;
   }
 
@@ -3390,12 +3390,11 @@ html.w-mod-js *[data-ix="display-none"] {
     height: 100vh;
     min-height: 100vh;
     max-height: 100vh;
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(17%, rgba(62, 39, 35, 0.83)), color-stop(65%, hsla(0, 0%, 100%, 0))), url('../images/renata-banner3.png');
-    background-image: linear-gradient(0deg, rgba(62, 39, 35, 0.83) 17%, hsla(0, 0%, 100%, 0) 65%), url('../images/renata-banner3.png');
-    background-position: 0px 0px, 20% 25%;
-    background-size: auto, cover;
-    background-repeat: repeat, no-repeat;
-    background-attachment: scroll, fixed;
+    background-image: url('../images/renata-banner3.jpg');
+    background-position: 20% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     overflow: hidden;
   }
 
@@ -3742,10 +3741,9 @@ html.w-mod-js *[data-ix="display-none"] {
     min-height: 100vh;
     max-height: 100vh;
     margin-bottom: 0rem;
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(28%, rgba(62, 39, 35, 0.83)), color-stop(65%, hsla(0, 0%, 100%, 0))), url('../images/renata-banner3.png');
-    background-image: linear-gradient(0deg, rgba(62, 39, 35, 0.83) 28%, hsla(0, 0%, 100%, 0) 65%), url('../images/renata-banner3.png');
-    background-position: 0px 0px, 20% 25%;
-    background-attachment: scroll, scroll;
+    background-image: url('../images/renata-banner3.jpg');
+    background-position: 20% 25%;
+    background-attachment: scroll;
   }
 
   .wrapper {
