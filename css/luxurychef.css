@@ -1047,6 +1047,8 @@ a:hover {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+  -webkit-transform: translateY(-40px);
+  transform: translateY(-40px);
 }
 
 .menu-info-main {
@@ -3048,6 +3050,11 @@ html.w-mod-js *[data-ix="display-none"] {
     margin-top: 12px;
   }
 
+  .section.hero .side-block.no-padding-side .side-info {
+    -webkit-transform: none;
+    transform: none;
+  }
+
   .button-2.color-4 {
     background-color: #d32f2f;
   }
@@ -3399,19 +3406,6 @@ html.w-mod-js *[data-ix="display-none"] {
     position: relative;
   }
 
-  .section.hero::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 25%;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    pointer-events: none;
-  }
-
   .wrapper {
     width: 100%;
     padding-right: 0px;
@@ -3759,19 +3753,6 @@ html.w-mod-js *[data-ix="display-none"] {
     background-position: 20% 25%;
     background-attachment: scroll;
     position: relative;
-  }
-
-  .section.hero::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 25%;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    pointer-events: none;
   }
 
   .wrapper {
